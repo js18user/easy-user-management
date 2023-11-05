@@ -19,9 +19,9 @@ This program implements the maintenance of a database of simple users:
 - name
 
 Main functions:
--creating a user
--deleting a user
--user search, including search by context
+- creating a user
+- deleting a user
+- user search, including search by context
 - update user
  
 User service is possible using:
