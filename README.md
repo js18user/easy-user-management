@@ -23,7 +23,7 @@ Main functions:
 -deleting a user
 -user search, including search by context
 - update user
-- 
+ 
 User service is possible using:
 - GET
 - PUT
@@ -35,9 +35,9 @@ This program is self-documented via Swagger
 - http://127.0.0.1:8000/redoc
 
 Return codes:
-200 - successful completion of the request
-400 - there are errors in the request
-422 - Pydantic validate response (very rare)
+- 200 - successful completion of the request
+- 400 - there are errors in the request
+- 422 - Pydantic validate response (very rare)
 
 List and functions of the presented scripts:
 
