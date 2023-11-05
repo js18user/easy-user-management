@@ -44,3 +44,5 @@ List and functions of the presented scripts:
 - main.py       the main program
 - requirements.txt no comments
 
+The working interface after starting the main.py program is as follows:
+- http://127.0.0.1:8000/user
