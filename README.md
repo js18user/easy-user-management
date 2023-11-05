@@ -20,17 +20,9 @@ The task must run continuously and is completed by "Ctrl C"
 There can be several crypto currency exchanges and the processes must be parallel.
 
 List and functions of the presented scripts:
-- m8bilance.py  this program to perform a task with cryptocurrency exchange Bilance
-- m8poloniex.py this program to perform a task with cryptocurrency exchange Poloniex
+
 - main.py       the main program
-- m8_sql_query.py this is a module containing SQL queries in the database
 - requirements.txt no comments
-- m8query.yaml  this is a file with request parameters
-  - tickers - list of tickers
-  - interspace - time in seconds for selecting tickers and storing them in the database
-  - сloud - DB selection sign
-    - False- for debugging localhost
-    - True -  for work, the database is relevant, you can work
 
 This publication shows how to work with two cryptocurrency exchanges:
 - Binance
