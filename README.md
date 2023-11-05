@@ -35,17 +35,12 @@ This program is self-documented via Swagger
 - http://127.0.0.1:8000/redoc
 
 Return codes:
-200
-400
-422 very rare
+200 - successful completion of the request
+400 - there are errors in the request
+422 - Pydantic validate response (very rare)
 
 List and functions of the presented scripts:
 
 - main.py       the main program
 - requirements.txt no comments
 
-This publication shows how to work with two cryptocurrency exchanges:
-- Binance
-- Poloniex
-
-In the working version, work with 20 cryptocurrency exchanges is implemented  
