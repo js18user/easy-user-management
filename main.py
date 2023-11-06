@@ -233,7 +233,7 @@ try:
     skip = '\n'
     app = FastAPI(
         title="API documentation",
-        description="A set of Api for completing the test task is presented",
+        description="A set of Api for completing the task is presented",
     )
     conn = db_connect()
     # conn = db_connect_cloud()
