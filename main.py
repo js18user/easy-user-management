@@ -45,10 +45,10 @@ class User(BaseModel,
         "json_schema_extra": {
             "examples": [
                 {
-                    "name": "Ivan Ivanov",
+                    "name": "Robert Plant",
                 },
                 {
-                    "id": 2,
+                    "id": 1,
                 },
             ]
         }
@@ -68,7 +68,7 @@ class UserInsert(BaseModel,
         "json_schema_extra": {
             "examples": [
                 {
-                    "name": "Ivan Ivanov",
+                    "name": "David Coverdale",
                 },
             ]
         }
@@ -95,7 +95,7 @@ class UserUpdate(BaseModel,
             "examples": [
                 {
                     "id": 2,
-                    "name": "Ivan Ivanov",
+                    "name": "Jimmy Page",
                 },
             ]
         }
@@ -317,7 +317,6 @@ try:
                           db=Depends(conn.connection),
                           ):
         model = user.dict()
-        print(model)
         if model['id'] is None and model['name'] is None:
             response.status_code = 400
             return {"message": "There are no attributes for the database query"}
